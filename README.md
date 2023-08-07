@@ -22,15 +22,13 @@ pip install requests
 
 1. Replace the placeholders `YOUR_OPEN_WEATHER_MAP_API_KEY`, `YOUR_LLM_API_KEY`, and `YOUR_LLM_AUTH_TOKEN` in the script with your actual API keys.
 
-2. Set the `city` variable to the name of the city for which you want to get weather clothing recommendations.
-
-3. Execute the script:
+2. Execute the script:
 
 ```
 python3 weather_clothing_recommendation.py
 ```
 
-The script will fetch the weather data, convert the temperature to Celsius, and then use the Llama model to generate clothing recommendations based on the temperature. The final clothing recommendation will be printed in the console.
+The script ask for the name of the city, and then will fetch the weather data, convert the temperature to Celsius, and then use the Llama model to generate clothing recommendations based on the temperature. The final clothing recommendation will be printed in the console.
 
 Example Input/Output:
 

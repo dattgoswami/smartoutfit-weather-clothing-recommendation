@@ -4,7 +4,7 @@ from time import sleep
 
 # OpenWeatherMap API setup
 OWM_API_KEY = "YOUR_OPEN_WEATHER_MAP_API_KEY"
-city = "Calgary"  # Replace with your city name
+city = input("Enter the name of your city: ")  
 
 weather_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={OWM_API_KEY}"
 
