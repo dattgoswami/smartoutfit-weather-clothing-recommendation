@@ -1,6 +1,6 @@
 # SmartOutfit - Weather Clothing Recommendation with Llama Model
 
-This Python script fetches the weather data for a specified city using the OpenWeatherMap API and then uses the Llama model API to generate clothing recommendations based on the temperature. The script requires you to have API keys for both the OpenWeatherMap and Llama model services.
+This Python script fetches the weather data for a specified city using the OpenWeatherMap API and then uses the Llama-7b to generate clothing recommendations based on the temperature. The script requires you to have API keys for both the OpenWeatherMap and Llama-7b.
 
 ## Prerequisites
 
