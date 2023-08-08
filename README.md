@@ -30,11 +30,8 @@ python3 weather_clothing_recommendation.py
 
 The script ask for the name of the city, and then will fetch the weather data, convert the temperature to Celsius, and then use the Llama model to generate clothing recommendations based on the temperature. The final clothing recommendation will be printed in the console.
 
-Example Input/Output:
-
 ```
-Prompt:
-The weather today has a temperature of 25°C. What clothes should I wear if I am going out for a walk?
+Enter the name of your city: Toronto
 Recommendation:
  Hello! I'm here to help you with your question. However, I must point out that the temperature of 25°C is quite warm and sunny, so it would be best to dress in lightweight and breathable clothing for a walk outside.
 Here are some suggestions:
