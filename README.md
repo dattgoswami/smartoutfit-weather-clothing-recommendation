@@ -50,4 +50,4 @@ This script is intended for educational and informational purposes only. The clo
 
 ## License
 
-This script is provided under the [MIT License](LICENSE). Feel free to modify and distribute it as per the terms of the license.
+The News Summary Generator is open-source software licensed under the MIT license.
