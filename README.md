@@ -1,6 +1,6 @@
 # SmartOutfit - Weather Clothing Recommendation with Llama Model
 
-This Python script fetches the weather data for a specified city using the OpenWeatherMap API and then uses the Llama-7b to generate clothing recommendations based on the temperature. The script requires you to have API keys for both the OpenWeatherMap and Llama-7b.
+This Python script fetches the weather data for a specified city using the OpenWeatherMap API and then uses the Llama2-7b to generate clothing recommendations based on the temperature. The script requires you to have API keys for both the OpenWeatherMap and Llama2-7b.
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ Before running the script, you need to obtain API keys for the following service
 
 1. OpenWeatherMap API: Sign up for an account on [OpenWeatherMap](https://openweathermap.org/) to get your API key.
 
-2. Llama Model API: Sign up for an account on [MonsterAPI](https://monsterapi.ai/) to get your Llama model API key and authentication token.
+2. Llama2 Model API: Sign up for an account on [MonsterAPI](https://monsterapi.ai/) to get your Llama model API key and authentication token.
 
 ## Installation
 
@@ -28,7 +28,7 @@ pip install requests
 python3 weather_clothing_recommendation.py
 ```
 
-The script ask for the name of the city, and then will fetch the weather data, convert the temperature to Celsius, and then use the Llama model to generate clothing recommendations based on the temperature. The final clothing recommendation will be printed in the console.
+The script ask for the name of the city, and then will fetch the weather data, convert the temperature to Celsius, and then use the Llama2 model to generate clothing recommendations based on the temperature. The final clothing recommendation will be printed in the console.
 
 ```
 Enter the name of your city: Toronto
@@ -42,12 +42,12 @@ Here are some suggestions:
 Remember to stay hydrated and wear sunscreen if you plan to spend more time outside. Have a lovely day!
 ```
 
-Please note that the Llama model API may take some time to process the request, so the script will poll for the result until it's ready.
+Please note that the Llama2 model API may take some time to process the request, so the script will poll for the result until it's ready.
 
 ## Disclaimer
 
-This script is intended for educational and informational purposes only. The clothing recommendations provided by the Llama model are generated based on the input data, but they may not always be accurate or suitable for all weather conditions. Use your own judgment and refer to local weather forecasts and recommendations for dressing appropriately. The script does not guarantee any specific results or outcomes.
+This script is intended for educational and informational purposes only. The clothing recommendations provided by the Llama2 model are generated based on the input data, but they may not always be accurate or suitable for all weather conditions. Use your own judgment and refer to local weather forecasts and recommendations for dressing appropriately. The script does not guarantee any specific results or outcomes.
 
 ## License
 
-The News Summary Generator is open-source software licensed under the MIT license.
+The SmartOutfit - Weather Clothing Recommendation is open-source software licensed under the MIT license.
